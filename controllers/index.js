@@ -1,6 +1,6 @@
 dataDisplay = (req, res) => {
     const data =
-      'Hello World,';
+      'Hello World';
     res.status(200).send(data);
   };
   
