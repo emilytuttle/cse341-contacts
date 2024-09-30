@@ -23,3 +23,8 @@ const getSingle = async (req, res) => {
         console.log(err)
     });
 };
+
+module.exports = {
+    getAll,
+    getSingle
+};
