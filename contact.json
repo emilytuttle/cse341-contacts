@@ -1,0 +1,23 @@
+[
+    {
+        "firstName": "Sam",
+        "lastName": "Jones",
+        "email": "samjones@gmail.com",
+        "favoriteColor": "orange",
+        "birthday": "January 10, 2001"
+    },
+    {
+        "firstName": "Ava",
+        "lastName": "Stott",
+        "email": "ava11stott@gmail.com",
+        "favoriteColor": "blue",
+        "birthday": "August 19, 2000"
+    },
+    {
+        "firstName": "Riley",
+        "lastName": "Bradshaw",
+        "email": "riguy1234b@gmail.com",
+        "favoriteColor": "blue",
+        "birthday": "October 10, 2001"
+    }
+  ]
