@@ -1,0 +1,17 @@
+## LOCAL HOST
+
+
+## GET ALL CONTACTS
+GET http://localhost:3000/users
+
+### GET CONTACT BY ID
+GET http://localhost:3000/users/66fa486d3cc87e38c9c01281
+
+
+## RENDER
+
+### GET ALL CONTACTS
+GET https://cse341-contacts-hrrd.onrender.com//users
+
+### GET CONTACT BY ID
+GET https://cse341-contacts-hrrd.onrender.com//users/66fa486d3cc87e38c9c01281
