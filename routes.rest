@@ -7,6 +7,38 @@ GET http://localhost:3000/users
 ### GET CONTACT BY ID
 GET http://localhost:3000/users/66fa486d3cc87e38c9c01281
 
+### CREATE CONTACT
+POST http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "CreateTestFirst",
+    "lastName": "CreateTestLast",
+    "email": "create@test.com",
+    "favoriteColor": "red",
+    "birthday": "09/29/1999"
+}
+
+### UPDATE CONTACT
+PUT http://localhost:3000/users/670202c7d80682d3f378fa50 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Sarah",
+    "lastName": "Birch",
+    "email": "sbirch@test.com",
+    "favoriteColor": "red",
+    "birthday": "10/10/2010"
+}
+
+### DELETE CONTACT
+DELETE http://localhost:3000/users/670202c7d80682d3f378fa50
+content-type: application/json
+
+
+
+
+
 
 ## RENDER
 

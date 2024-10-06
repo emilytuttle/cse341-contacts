@@ -7,4 +7,8 @@ routes.get('/', usersController.getAll);
 
 routes.get('/:id', usersController.getSingle);
 
-module.exports = routes ;
+routes.post('/', usersController.createUser);
+routes.put('/:id', usersController.updateUser);
+routes.delete('/:id', usersController.deleteUser);
+
+module.exports = routes;
